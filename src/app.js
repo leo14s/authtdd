@@ -9,7 +9,7 @@ class AppControler {
   }
 
   middlewares() {
-    this.express.unescape(express.JSON());
+    this.express.use(express.json());
   }
 
   routes() {
